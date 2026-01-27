@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: Baskerville, "Palatino Linotype", Palatino,
+	"Century Schoolbook L", "Times New Roman", serif;
+}
+
+ul {
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+}
+
+li {
+	display: inline;
+	background-color: #2DD4BF;
+	padding: 20px;
+	border: 2px solid #0F766E;
+}
+
+li:hover {
+	background-color: #004B47;
+	color: #2DD4BF;
+}
+
+li:active {
+	background-color: #0F766E;
+}
+
+li a {
+	color: #0F766E;
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+}
+p {
+	color: #111827;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	line-height: 18px;
+	width: 600px;
+	background-color: rgba(45,212,191,0.60);
+	padding: 20px;
+}
+ h2 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: #0F766E;
+}
+.pozadina{
+	background-image: url("slike/pozadina1.jpg");
+	background-color: lightcyan;		
+}
+img {height: 200px;
+}
+.opis span {
+  display: block;
+  margin-bottom: 15px;
+}
